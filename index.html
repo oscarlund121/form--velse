@@ -1,0 +1,73 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form øvelse</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <div class="container">
+          <h1>Login</h1>
+          <p>Her kan du logge ind</p>
+
+          <label for="username"><b>Email</b></label>
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="username"
+            required />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required />
+          <label>
+            <input type="checkbox" checked="checked" name="remember" />
+            Husk mig
+          </label>
+          <button type="submit">Login</button>
+        </div>
+      </form>
+      <form action="">
+        <h1>Tilmeldingsformular</h1>
+        <p>Her kan du registre dine oplysninger</p>
+        <div>
+          <label for="username"><b>Email</b></label>
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="username"
+            required />
+
+          <label for="name"><b>Navn</b></label>
+          <input type="name" placeholder="Enter Name" name="name" required />
+          <label for="name"><b>Forespørgelse</b></label>
+          <input type="text" placeholder="Enter Text" name="name" required />
+          <fieldset>
+            <select name="admin_or_user" id="admin">
+              <option value=""></option>
+              <option value="Admin">Admin</option>
+              <option value="User">User</option>
+            </select>
+
+            <input type="Submit" />
+            <input type="Reset" />
+          </fieldset>
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" />
+            Husk mig
+          </label>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
